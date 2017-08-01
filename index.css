@@ -1,0 +1,25 @@
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 20px 0 20px;
+    font-family: 'Playfair Display SC', serif;
+    color: gray;
+}
+
+.page-header>small {
+    font-size: 20px;
+    color: gray;
+}
+
+.navbar navbar-default {
+    padding: 0 15px 0 15px;
+    font-family: 'Playfair Display', serif;
+    color: #f96e5b;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    background-color: lightgray;
+    font-family: 'Playfair Display SC', serif;
+
+}
