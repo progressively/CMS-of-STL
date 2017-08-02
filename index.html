@@ -91,6 +91,9 @@
             </div>
         </div>
             <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
  
 <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
@@ -98,6 +101,12 @@
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         effect: 'coverflow',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true,
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
