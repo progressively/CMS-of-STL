@@ -1,7 +1,10 @@
+.body {
+    font-family: 'Questrial', sans-serif;
+}
 .page-header {
     padding-bottom: 9px;
     margin: 40px 20px 0 20px;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Questrial',  sans-serif;
     color: gray;
 }
 
@@ -19,7 +22,7 @@
 
 .navbar navbar-default {
     padding: 0 15px 0 15px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Questrial', sans-serif;
     color: #f96e5b;
 
 }
