@@ -45,7 +45,6 @@
     max-width: 1130px;
     margin: 0px auto;
     position: relative;
-    padding: 10px;
 }
 .gb-footer-outer.bottom {
     position: relative;
@@ -53,7 +52,7 @@
     background: #F1F7FE;
     z-index: 1;
 }
-.gb-footer-outer.bottom:before {
+    .gb-footer-outer.bottom:before {
     content: "";
     display: block;
     position: absolute;
@@ -67,13 +66,6 @@
     margin: 0px;
     color: #111;
     font: normal 13px/1 'Trocchi', serif;
-}
-.ui-clear:after {
-    content: ".";
-    visibility: hidden;
-    clear: both;
-    display: block;
-    height: 0px;
 }
 .ui-clear:after {
     content: ".";
@@ -116,4 +108,3 @@
     background: #FFF;
     line-height: 22px;
 }
-
