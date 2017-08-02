@@ -2,35 +2,35 @@
     font-family: 'Questrial', sans-serif;
 }
 .page-header {
-    padding-bottom: 9px;
-    margin: 40px 20px 0 20px;
+    margin: 15px 20px -85px 20px;
     font-family: 'Questrial',  sans-serif;
     color: gray;
+}
+.saying{
+    position: relative;
+    top: -80px;
+    left: 110px;
 }
 
 .logo {
     padding-right: 20px;
 }
-.page-header>h1 {
-    text-align: left;
-}
-
 .page-header>small {
     font-size: 20px;
     color: gray;
+    position: relative;
+    top: -95px;
+    left: 110px;
 }
-
-.navbar navbar-default {
-    padding: 0 15px 0 15px;
-    font-family: 'Questrial', sans-serif;
-    color: #f96e5b;
-
+.navbar-default .navbar-nav {
+    position: center;
+    width: 520px;
 }
-
 .navbar-default .navbar-nav>li>a {
     color: black;
     background-color: lightgray;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Questrial', sans-serif;
+    position: center;
 
 }
 .swiper-container {
