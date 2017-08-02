@@ -1,36 +1,33 @@
-.body {
-    font-family: 'Questrial', sans-serif;
-}
 .page-header {
-    margin: 15px 20px -85px 20px;
-    font-family: 'Questrial',  sans-serif;
+    padding-bottom: 9px;
+    margin: 40px 20px 0 20px;
+    font-family: 'Playfair Display SC', serif;
     color: gray;
-}
-.saying{
-    position: relative;
-    top: -80px;
-    left: 110px;
 }
 
 .logo {
     padding-right: 20px;
 }
+.page-header>h1 {
+    text-align: left;
+}
+
 .page-header>small {
     font-size: 20px;
     color: gray;
-    position: relative;
-    top: -95px;
-    left: 110px;
 }
-.navbar-default .navbar-nav {
-    position: center;
-    width: 520px;
+
+.navbar navbar-default {
+    padding: 0 15px 0 15px;
+    font-family: 'Playfair Display', serif;
+    color: #f96e5b;
+
 }
+
 .navbar-default .navbar-nav>li>a {
     color: black;
     background-color: lightgray;
-    font-family: 'Questrial', sans-serif;
-    position: center;
+    font-family: 'Playfair Display SC', serif;
 
 }
 .swiper-container {
@@ -48,7 +45,6 @@
     max-width: 1130px;
     margin: 0px auto;
     position: relative;
-    padding: 10px;
 }
 .gb-footer-outer.bottom {
     position: relative;
@@ -56,7 +52,7 @@
     background: #F1F7FE;
     z-index: 1;
 }
-.gb-footer-outer.bottom:before {
+    .gb-footer-outer.bottom:before {
     content: "";
     display: block;
     position: absolute;
@@ -70,13 +66,6 @@
     margin: 0px;
     color: #111;
     font: normal 13px/1 'Trocchi', serif;
-}
-.ui-clear:after {
-    content: ".";
-    visibility: hidden;
-    clear: both;
-    display: block;
-    height: 0px;
 }
 .ui-clear:after {
     content: ".";
@@ -119,4 +108,3 @@
     background: #FFF;
     line-height: 22px;
 }
-
