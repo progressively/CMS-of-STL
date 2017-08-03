@@ -108,7 +108,7 @@
     padding: 0px 28px 0px 0px;
 }
 .hp.column.one, .hp.column.one div.ui-widget.app.upcomingevents .sw-calendar-block-title a {
-    color: #808080;
+    color: whitesmoke;
 }
 .column {
     float: left;
@@ -118,6 +118,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background: url("http://designious.s3.amazonaws.com.wp-content/uploads/2009/03/45.gif") repeat;
+    border: 2px solid grey
+}
+.ui-article-description {
+    -webkit-text-fill-color: darkgrey
 }
 .hp-content.bottom {
     max-width: 1130px;
