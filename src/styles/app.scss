@@ -5,10 +5,9 @@
 .page-header {
     margin: 0px 0px -55px 0px;
     font-family: 'Questrial',  sans-serif;
-    color: gray;
+    color: lightgray;
     background-color: midnightblue;
-    border-top: 6px solid gray;
-    border-bottom: 6px solid gray;
+    border-bottom: 6px solid lightgray;
     img {
         padding: 20px 15px;
     }
@@ -25,7 +24,7 @@
 }
 .page-header>small {
     font-size: 20px;
-    color: gray;
+    color: lightgray;
     position: relative;
     top: -125px;
     left: 156px;
@@ -36,7 +35,7 @@
     background: transparent;
     box-shadow: none;
     .navbar-nav>li>a {
-        color: #FFF;
+        color: navy;
         font-family: 'Questrial', sans-serif;
         position: center;
         font-weight: bold;
@@ -141,4 +140,9 @@
 }
 .navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.4);
+}
+.collapse navbar-collapse {
+    active {
+        color: lightgray;
+    }
 }
