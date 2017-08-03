@@ -103,7 +103,7 @@
     width: auto;
     float: none;
     padding: 0px;
-    margin: 0px;
+    margin: 5px;
 }
 .hp.column.one {
     width: 33.33%;
@@ -116,12 +116,18 @@
     float: left;
     position: relative;
 }
+
 .border-box {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background: midnightblue;
+<<<<<<< HEAD
     border: 2px solid grey
+=======
+    border: 2px solid grey;
+    padding-bottom: 30px;
+>>>>>>> a84819da1da9b9a194c3cb3d3f565946f0312a57
 }
 .ui-article-description {
     -webkit-text-fill-color: darkgrey
