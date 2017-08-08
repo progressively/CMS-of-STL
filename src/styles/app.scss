@@ -12,13 +12,11 @@
         padding: 20px 15px;
         float: left;
     }
-
 }
 .saying {
     margin-top: 0;
     padding-top: 50px;
 }
-
 .logo {
     padding-right: 20px;
 }
@@ -47,7 +45,6 @@
         font-family: 'Questrial', sans-serif;
         position: center;
         font-weight: none;
-
     }
     .active>a {
         background: white;
@@ -63,7 +60,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: lightgray;
-    }
+}
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -132,7 +129,6 @@
     float: left;
     position: relative;
 }
-
 .border-box {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -158,7 +154,7 @@
    background: rgba(0,0,0,0.4);
 }
 .collapse navbar-collapse {
-    active {
+    &:active {
         color: lightgray;
     }
 }
@@ -197,6 +193,7 @@ h1 {
     background: white;
     box-shadow: none;
     border: none;
+}
 #gb-page {
     width: 100%;
     position: relative;

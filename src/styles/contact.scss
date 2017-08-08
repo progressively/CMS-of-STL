@@ -14,7 +14,7 @@ form {
 
 label {
     float: above;
-    color: white;
+    color: lightslategray;
     padding: 0px 20px;
     font-weight: 300;
     font-size: 125%;
@@ -36,7 +36,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: navy;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -46,7 +46,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #ef9a39;
+    background-color: lightslategray;
 }
 
 /*div {
@@ -74,4 +74,11 @@ width:100%;
 #success h2{
     text-align: center;
     color: whitesmoke;
+}
+.h2, h2 {
+    color: navy;
+    padding-left: 15px;
+}
+.form-group {
+    color: navy;
 }
