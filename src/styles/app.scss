@@ -95,7 +95,7 @@
 .gb-footer-outer.bottom p {
     margin: 0px 0px;
     color: #111;
-    font: normal 13px/1 'Trocchi', serif;
+    font: normal 13px 'Trocchi', serif;
 }
 .ui-clear:after {
     content: ".";
@@ -158,7 +158,7 @@
    background: rgba(0,0,0,0.4);
 }
 .collapse navbar-collapse {
-    active {
+    .active {
         color: lightgray;
     }
 }
@@ -197,6 +197,7 @@ h1 {
     background: white;
     box-shadow: none;
     border: none;
+}
 #gb-page {
     width: 100%;
     position: relative;
