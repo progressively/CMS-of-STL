@@ -197,4 +197,78 @@ h1 {
     background: white;
     box-shadow: none;
     border: none;
+#gb-page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+@media (max-width: 1023px) {
+#gb-global-icons-inner {
+    width: auto;
+}
+}
+#sp-content {
+    max-width: 1152px;
+    margin: 0px auto;
+    position: relative;
+}
+@media (max-width: 1023px) {
+.sp.column.one {
+    min-height: 0px;
+}
+}
+.sp.column.one {
+    width: 25%;
+    min-height: 500px;
+    background: midnightblue;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+@media (max-width: 1023px) {
+.sp.column.two {
+    min-height: 0px;
+}
+}
+.sp.column.two {
+    width: 75%;
+    min-height: 500px;
+    padding-bottom: 60px;
+}
+.column-inner {
+    padding: 10px;
+}
+#rs-pagelist-menu-outer {
+    display: none;
+}
+#sw-content-layout-wrapper {
+    position: relative;
+    overflow: visible;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.column-inner .ui-widget.app {
+    padding: 0px 10px;
+}
+div.ui-widget.app {
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid #CCC;
+}
+div.ui-widget .ui-widget-detail {
+    width: auto;
+    position: relative;
+}
+div.ui-widget .ui-widget-detail {
+    width: auto;
+    position: relative;
+}
+div.ui-widget .ui-widget-detail {
+    width: auto;
+    position: relative;
+}
+div.ui-article {
+    padding: 5px 0px;
+    margin: 0px;
+    border: 0px;
 }
