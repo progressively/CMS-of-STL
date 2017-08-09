@@ -29,7 +29,6 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                     aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -43,20 +42,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html ">Home</a></li>
-                        <li class="dropdown">
-                        <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> About <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="mission.html">Mission & Philosophy</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
+                      <li><a href="about.html"> About</a></li>
                         <li><a href="donate.html">Donate</a></li>
                         <li><a href="academics.html">Academics</a></li>
-                        <li><a href="enroll.html">Enroll</a></li>
+                            <li class="dropdown">
+                        <a href="enroll.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Enroll<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="process.html">Enrollment Process</a></li>
+                            <li><a href="tuition.html">Tuition/Scholorships</a></li>
+                            <li><a href="financial.html">Financial Aid</a></li>
+                        </ul>
                         <li class="active"><a href="contact.html ">Contact<span class="sr-only">(current)</span></a></li>
                     </li>
                 </ul>
@@ -65,7 +60,7 @@
         </div>
     </nav>
 
-        <h2>Contact Me</h2>
+        <h2>Contact Us</h2>
 
         <form action="/action_page.php">
             <div class="form-group">
@@ -76,6 +71,10 @@
             <div class="form-group">
                 <label for="lname">Last Name:</label>
                 <input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your email..">
             </div>
             <div class="form-group">
                 <label for="country">Country:</label>

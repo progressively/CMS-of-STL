@@ -11,6 +11,7 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link rel="stylesheet" href="dist/styles/app.css">
+    <link rel="stylesheet" href="dist/styles/about.css">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 </head>
 <body>
@@ -27,7 +28,6 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                     aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -40,21 +40,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html ">Home</a></li>
-                        <li class="dropdown">
-                        <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> About <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="mission.html">Mission & Philosophy</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
+                        <li><a href="index.html ">Home</a></li>
+                        <li class="active"><a href="about.html" class="active"> About<span class="sr-only">(current)</span></a>
                         <li><a href="donate.html">Donate</a></li>
                         <li><a href="academics.html">Academics</a></li>
-                        <li><a href="enroll.html">Enroll</a></li>
+                            <li class="dropdown">
+                        <a href="enroll.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Enroll<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="process.html">Enrollment Process</a></li>
+                            <li><a href="tuition.html">Tuition/Scholorships</a></li>
+                            <li><a href="financial.html">Financial Aid</a></li>
+                        </ul>
                         <li><a href="contact.html">Contact</a></li>
                     </li>
                 </ul>
@@ -62,75 +58,21 @@
             <!-- /.navbar-collapse -->
         </div>
     </nav>
-    <div class="ui-columns sw-directory-columns">
-        <h1 class="sw-directory-title">About Us Directory</h1>
-        <div class="ui-column-one-third" style="float:left;width:33%;">
-            <ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="A"></a>A</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="#" target="_blank">About the School</a></li>
-                </ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="C"></a>C</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="#" target="_blank">Communications</a></li>
-                </ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="E"></a>E</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="#" target="_blank">Enrollment</a></li>
-                </ul>
-                
-            </ul>
-        </div>
-        <div class="ui-column-one-third" style="float:left;width:33%;">
-            <ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="G"></a>G</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="cms goals and objectives.pdf" target="_blank">Goals & Objectives</a></li>
-                </ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="M"></a>M</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="#" target="_blank">Mission, Vision &amp; Core Values</a></li>
-                </ul>
-            </ul>
-        </div>
-        <div class="ui-column-one-third" style="float:left;width:33%;">
-            <ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="P"></a>P</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="cms nondiscriminatory policy.docx.pdf" target="_blank">Policy on nondiscriminatory matters</a></li>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="cms tuition policy.pdf" target="_blank">Policy on tuition</a></li>
-                </ul>
-                <h2 class="sw-directory-alphabetical-group-heading"><a name="S"></a>S</h2>
-                <hr>
-                <ul>
-                    <li><a class="sw-directory-item" onmouseover="this.className='sw-directory-item-hover'" onmouseout="this.className='sw-directory-item'"
-                            href="cms scholarship program 1.pdf" target="_blank">Scholarship Program</a></li>
-                </ul>
-            </ul>
-        </div>
+        <h2>About Us</h2>
+            <p>     Clara Mohammed School of St. Louis is a private lslamic school located in the heart of St. Louis city CMS of St. Louis adheres to the policy and procedures of the National clara Mohammed School Council Clara Mohammed School features an academically competitive learning environment that develops students intellectually, socially, spiritually, mentally and morally. The grades offered for the 2018-19 school year are grades Kg-5. The school is organized exclusively for educational purposes and is responsible for meeting the needs of all students enrolled in the program.We are a non-profit organization.</p>
+            <p>     Clara Mohammed School of St. Louis engages in such curriculum activities as reading comprehension and vocabulary development, language arts and writing, mathematics, science, Islamic studies and social studies, foreign language, character development and after school tutorial math and reading program. Students enroll in general coursework at appropriate grade level and are given the opportunity for specific coursework designed to meet their individual needs.</p>
+            <p>     The Clara Mohammed School curriculum is structured to delineate the philosophy, goals, objectives, learning experience, instructional resources, and assessment that comprise the specific educational program. In addition, the curriculum delineates grade-level expectations and course goals that address the key cognitive and affective content expectations for the educational program. It also presents an articulation of what students should know and be able to do and support teachers in knowing how to achieve these goals.</p>
+        <h2>Mission Statement</h2>
+            <p>Our mission of CMS of St. Louis is to provide all students with high quality of education and moral development that enables them to compete and contribute in a global society as leaders and members our mission is embedded in Quranic principles, creation-based knowledge curriculum, and the universal application of the Holy Quran and the Sunnah of Prophet Muhammad (PBUH).</p>
+        <h2>Vision Statement</h2>
+            <p>Our vision is to provide academic and moral instruction in a safe and caring learning environment. Our vision is responsive to the overall needs of each student, in collaboration with the school, family, community, and society.</p>
+        <h2>Clara Mohammmed School of St. Louis Nondiscriminatory policy</h2>
+            <p>The Clara Mohammed School of St. Louis admits students of any race, color, national origin, and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school. It does not discriminate on the basis of race, color, national origin and ethnic origin in administration of its educational policies, admission policies, scholarships, and athletic and other school administered programs.</p>
+    
+        
+        
+        <div class="ui-widget-footer">
         <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
-	
-	</div>
-	<div class="ui-widget-footer">
-		
-			
-		
-		<div class="clear"></div>
 	</div>
 </div>
     <div id="sp-tagline" class="hide320">

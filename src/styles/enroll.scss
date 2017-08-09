@@ -1,4 +1,4 @@
-.body {
+body {
     padding: 15px 15px 15px 15px;
 }
 .navbar-default {
@@ -23,4 +23,16 @@
         background: whitesmoke;
         box-shadow: none;
     }
+}
+.sp.column.one {
+    width: 25%;
+    min-height: 500px;
+    background: midnightblue;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+h2 {
+    color: navy;
 }
