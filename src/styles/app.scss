@@ -173,6 +173,7 @@ h1 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+    padding-left: 20px;
 }
 #sp-tagline {
     max-width: 1000px;
@@ -183,7 +184,7 @@ h1 {
     left: 0px;
     z-index: 4;
     text-align: right;
-    color: #004a80;
+    color: whitesmoke;
     height: 60px;
     overflow: hidden;
 }
@@ -269,4 +270,8 @@ div.ui-article {
     padding: 5px 0px;
     margin: 0px;
     border: 0px;
+}
+a {
+    color: lightgray;
+    text-decoration: none;
 }
